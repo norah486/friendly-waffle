@@ -94,4 +94,3 @@ ReactDOM.render(
     <ImageControl />,
     document.getElementById('root')
 );
-
