@@ -5,13 +5,13 @@ import './index.css';
 function AllImages(props) {
     return (
         <div>
-            <img src={require('./Images/1-cats.png')} alt="cats" />
-            <img src={require('./Images/beepbeep.png')} alt="beepbeep" />
-            <img src={require('./Images/beepbeep2.png')} alt="beepbeep2" />
-            <img src={require('./Images/beepboat.png')} alt="beepboat" />
-            <img src={require('./Images/wideCatstare1.png')} alt="wideCatstare1" />
-            <img src={require('./Images/wideCatstare2.png')} alt="wideCatstare2" />
-            <img src={require('./Images/wideCatstare3.png')} alt="wideCatstare3" />
+            <img src={process.env.PUBLIC_URL + './Images/1-cats.png'} alt="cats" />
+            <img src={process.env.PUBLIC_URL + './Images/beepbeep.png'} alt="beepbeep" />
+            <img src={process.env.PUBLIC_URL + './Images/beepbeep2.png'} alt="beepbeep2" />
+            <img src={process.env.PUBLIC_URL + './Images/beepboat.png'} alt="beepboat" />
+            <img src={process.env.PUBLIC_URL + './Images/wideCatstare1.png'} alt="wideCatstare1" />
+            <img src={process.env.PUBLIC_URL + './Images/wideCatstare2.png'} alt="wideCatstare2" />
+            <img src={process.env.PUBLIC_URL + './Images/wideCatstare3.png'} alt="wideCatstare3" />
         </div>
     )
 }
